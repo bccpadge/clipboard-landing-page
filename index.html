@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="description" content="Frontend Mentor - Clipboard landing page">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Rebecca Padgett">
+	<meta charset="UTF-8">
+	<meta name="color-scheme" content="light dark">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<title>Frontend Mentor | Clipboard landing page</title>
+	<!-- remix icon cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+	<!-- css -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<!-- JavaScript -->
+	<script src="./assets/js/script.js" defer></script>
+</head>
+
+<body id="top">
+	<header class="header">
+		<picture>
+			<source media="(min-width: 50em)" srcset="./assets/images/bg-header-desktop.png">
+			<img class="header__image" src="./assets/images/bg-header-mobile.png" aria-hidden="true" alt="">
+		</picture>
+		<div class="header__select-box">
+			<label for="theme" class="header__select-title">Select Theme</label>
+			<select class="header__select" name="theme" id="theme" data-js-theme title="Theme Options">
+				<option value="system" selected>System</option>
+				<option value="light">Light</option>
+				<option value="dark">Dark</option>
+			</select>
+		</div>
+		<div class="header__content">
+			<img class="header__logo" src="./assets/images/logo-light.svg" width="125" height="125" alt="Clipboard logo">
+			<h1> A history of everything you copy</h1>
+			<p class="header__description"> Clipboard allows you to track and organize everything you
+				copy. Instantly access your clipboard on all your devices.</p>
+			<div class="btn__group">
+				<a href="#" class="btn btn-primary">Download for iOS</a>
+				<a href="#" class="btn btn-secondary">Download for Mac</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="snippets" aria-labelledby="snippets-title">
+			<h2 id="snippets-title">Keep track of your snippets</h2>
+			<p> Clipboard instantly stores any item you copy in the cloud,
+				meaning you can access your snippets immediately on all your
+				devices. Our Mac and iOS apps will help you organize everything.</p>
+			<div class="snpippets__inner">
+				<div class="snippets__image-box">
+					<img class="snippets__image" src="./assets/images/image-computer.png" aria-hidden="true" alt="">
+				</div>
+				<ul class="snippets__group">
+					<li class="snippets__card">
+						<h3>Quick Search</h3>
+						<p> Easily search your snippets by content, category, web address, application, and more.</p>
+					</li>
+					<li class="snippets__card">
+						<h3>iCloud Sync</h3>
+						<p> Instantly saves and syncs snippets across all your devices.</p>
+					</li>
+					<li class="snippets__card">
+						<h3>Complete History</h3>
+						<p> Retrieve any snippets from the first moment you started using the app.</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="access" aria-labelledby="access-title">
+			<h2 id="access-title">Access Clipboard anywhere</h2>
+			<p> Whether you’re on the go, or at your computer, you can access all your Clipboard
+				snippets in a few simple clicks.</p>
+			<img class="access__image" src="./assets/images/image-devices.png" aria-hidden="true" alt="">
+		</section>
+		<section class="workflow" aria-labelledby="workflow-title">
+			<h2 id="workflow-title">Supercharge your workflow</h2>
+			<p> We’ve got the tools to boost your productivity.</p>
+			<div class="workflow__group">
+				<article class="workflow__card">
+					<img src="./assets/images/icon-blacklist.svg" aria-hidden="true" alt="">
+					<h3>Create blacklists</h3>
+					<p> Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+				</article>
+				<article class="workflow__card">
+					<img src="./assets/images/icon-text.svg" aria-hidden="true" alt="">
+					<h3>Plain text snippets</h3>
+					<p> Remove unwanted formatting from copied text for a consistent look.</p>
+				</article>
+				<article class="workflow__card">
+					<img src="./assets/images/icon-preview.svg" aria-hidden="true" alt="">
+					<h3>Sneak preview</h3>
+					<p> Quick preview of all snippets on your Clipboard for easy access.</p>
+				</article>
+			</div>
+		</section>
+		<section class="clients" aria-labelledby="clients-title">
+			<h2 class="visually-hidden" id="clients-title">Clipboard Clients</h2>
+			<img src="./assets/images/logo-google.png" aria-hidden="true" alt="">
+			<img src="./assets/images/logo-ibm.png" aria-hidden="true" alt="">
+			<img src="./assets/images/logo-microsoft.png" aria-hidden="true" alt="">
+			<img src="./assets/images/logo-hp.png" aria-hidden="true" alt="">
+			<img src="./assets/images/logo-vector-graphics.png" aria-hidden="true" alt="">
+		</section>
+		<section class="download" aria-labelledby="download-title">
+			<h2 id="download-title">Clipboard for iOS and Mac OS</h2>
+			<p> Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+				and you’re ready to start adding to your clipboard.</p>
+			<div class="btn__group">
+				<a href="#" class="btn btn-primary">Download for iOS</a>
+				<a href="#" class="btn btn-secondary">Download for Mac</a>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<img class="header__logo" src="./assets/images/logo-light.svg" width="55" height="55" alt="Clipboard logo">
+		<ul class="footer__list">
+			<li>
+				<a href="#" class="footer__link"> FAQs</a>
+			</li>
+			<li>
+				<a href="#" class="footer__link">Contact Us</a>
+			</li>
+			<li>
+				<a href="#" class="footer__link">Privacy Policy</a>
+			</li>
+			<li>
+				<a href="#" class="footer__link">Press Kit</a>
+			</li>
+			<li>
+				<a href="#" class="footer__link">Install Guide</a>
+			</li>
+		</ul>
+		<ul class="social__list">
+			<li>
+				<a href="#" class="social__link" aria-label="Clipboard profile for Facebook">
+					<i class="ri-facebook-box-fill"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="social__link" aria-label="Clipboard profile for Twitter">
+					<i class="ri-twitter-fill"></i>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="social__link" aria-label="Clipboard profile for Instagram">
+					<i class="ri-instagram-line"></i>
+				</a>
+			</li>
+		</ul>
+		<a href="#top" aria-label="Click here to scroll to the top of the page" class="back-to-top" data-js-top>
+			<i class="ri-arrow-up-fill"></i>
+		</a>
+	</footer>
+</body>
+
+</html>

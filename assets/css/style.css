@@ -150,13 +150,13 @@ html {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
 /* Set core root defaults */
-html:focus-within {
+html {
   scroll-behavior: smooth;
 }
 
@@ -228,10 +228,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-ul {
-  list-style: none;
 }
 
 button,

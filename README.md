@@ -36,7 +36,7 @@ During my building process, I wanted to build a custom `<select>` element to all
 
 
 ##  🎥 Preview
-https://github.com/user-attachments/assets/5ba2fefc-e276-4557-9bce-18b350d4eda6
+https://github.com/user-attachments/assets/b6c8f7c8-0133-4c67-84ce-3a8ce6b7221f
 
 
 
